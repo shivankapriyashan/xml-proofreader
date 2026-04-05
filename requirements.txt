@@ -1,0 +1,13 @@
+lxml==5.1.0
+openai==1.30.0
+httpx==0.27.0
+python-docx==1.1.0
+psutil==5.9.8
+python-dotenv==1.0.0
+langcodes==3.3.0
+language-data==1.2.0
+numpy==1.24.3
+langchain==0.1.0
+langchain-openai==0.0.2
+langchain-community==0.0.10
+faiss-cpu==1.7.4
