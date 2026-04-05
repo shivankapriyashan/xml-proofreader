@@ -53,7 +53,7 @@ Create a `.env` file in the project root:
 
 ```env
 API_KEY=your_openai_api_key_here
-MODEL=gpt-4o-mini
+MODEL=gpt-5.4-mini
 ```
 
 **Environment Variables:**
