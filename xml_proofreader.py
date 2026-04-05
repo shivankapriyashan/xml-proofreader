@@ -337,6 +337,11 @@ def main():
         sys.exit(1)
     
     model = os.getenv("MODEL")
+    if not model:
+        logger.error("Error: MODEL environment variable not set")
+        logger.error("Please set MODEL in your .env file (e.g., MODEL=gpt-4o-mini)")
+        sys.exit(1)
+    
     logger.debug(f"Using model: {model}")
     
     if not os.path.exists(args.input):
