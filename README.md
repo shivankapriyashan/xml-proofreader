@@ -21,10 +21,11 @@ An intelligent XML proofreading tool that uses OpenAI's GPT models and RAG (Retr
 
 ## Installation
 
-### 1. Clone or Download the Repository
+### 1. Clone the Repository
 
 ```bash
-cd "C:\Users\ROG\Downloads\AI Engineer Assignment\xml-proofreader"
+git clone https://github.com/shivankapriyashan/xml-proofreader.git
+cd xml-proofreader
 ```
 
 ### 2. Install Dependencies
